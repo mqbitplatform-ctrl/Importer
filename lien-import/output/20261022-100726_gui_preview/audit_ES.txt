@@ -1,0 +1,44 @@
+Audit - source ES   input: D:\clients\MT\AmericanTax\lien-import\tests\data\ATT-ESS-example.csv
+  run started 2026-10-22T10:07:26
+
+=== COMBINED ===
+  total records examined                      25
+  records considered usable                   25
+  Federal liens                               22
+  State liens                                  3
+  Business liens                               3
+  Individual liens                            22
+  Trust/Estate records (held)                  0
+  Ambiguous entity records (held)              0
+  duplicates within source                     0
+  missing required values                      0
+  rejected for other reasons                   0
+  records that WOULD be inserted              25
+
+                     Business    Individual
+  Federal                   2            20
+  State                     1             2
+  (held) Trust/Estate          0     Ambiguous        0
+  jurisdiction resolved from:  creditor=3  note_filing_office=0  address_state=22
+  reconciles: True
+
+=== FORMAT: att_ess ===
+  total records examined                      25
+  records considered usable                   25
+  Federal liens                               22
+  State liens                                  3
+  Business liens                               3
+  Individual liens                            22
+  Trust/Estate records (held)                  0
+  Ambiguous entity records (held)              0
+  duplicates within source                     0
+  missing required values                      0
+  rejected for other reasons                   0
+  records that WOULD be inserted              25
+
+                     Business    Individual
+  Federal                   2            20
+  State                     1             2
+  (held) Trust/Estate          0     Ambiguous        0
+  jurisdiction resolved from:  creditor=3  note_filing_office=0  address_state=22
+  reconciles: True

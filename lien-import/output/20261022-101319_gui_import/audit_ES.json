@@ -1,0 +1,89 @@
+{
+  "source_code": "ES",
+  "input_path": "D:\\clients\\MT\\AmericanTax\\lien-import\\tests\\data\\ATT-ESS-example.csv",
+  "started_at": "2026-10-22T10:13:19",
+  "combined": {
+    "section12": {
+      "total_examined": 25,
+      "considered_usable": 25,
+      "federal_liens": 22,
+      "state_liens": 3,
+      "business_liens": 3,
+      "individual_liens": 22,
+      "trust_estate_held": 0,
+      "ambiguous_entity_held": 0,
+      "duplicates_within_source": 0,
+      "missing_required_values": 0,
+      "rejected_other": 0,
+      "would_insert": 25
+    },
+    "cross_tab": {
+      "federal": {
+        "business": 2,
+        "individual": 20
+      },
+      "state": {
+        "business": 1,
+        "individual": 2
+      },
+      "held": {
+        "trust_estate": 0,
+        "ambiguous": 0
+      }
+    },
+    "jurisdiction_inference": {
+      "from_creditor": 3,
+      "from_note_filing_office": 0,
+      "from_address_state": 22
+    },
+    "missing_field_tally": {},
+    "dispositions": {
+      "INSERT": 25
+    },
+    "reconciles": true
+  },
+  "by_format": {
+    "att_ess": {
+      "section12": {
+        "total_examined": 25,
+        "considered_usable": 25,
+        "federal_liens": 22,
+        "state_liens": 3,
+        "business_liens": 3,
+        "individual_liens": 22,
+        "trust_estate_held": 0,
+        "ambiguous_entity_held": 0,
+        "duplicates_within_source": 0,
+        "missing_required_values": 0,
+        "rejected_other": 0,
+        "would_insert": 25
+      },
+      "cross_tab": {
+        "federal": {
+          "business": 2,
+          "individual": 20
+        },
+        "state": {
+          "business": 1,
+          "individual": 2
+        },
+        "held": {
+          "trust_estate": 0,
+          "ambiguous": 0
+        }
+      },
+      "jurisdiction_inference": {
+        "from_creditor": 3,
+        "from_note_filing_office": 0,
+        "from_address_state": 22
+      },
+      "missing_field_tally": {},
+      "dispositions": {
+        "INSERT": 25
+      },
+      "reconciles": true
+    }
+  },
+  "unmapped_headers": [],
+  "reconciles": true
+}

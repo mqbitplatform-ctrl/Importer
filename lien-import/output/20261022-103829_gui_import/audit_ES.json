@@ -1,0 +1,103 @@
+{
+  "source_code": "ES",
+  "input_path": "C:/Users/Eng/Downloads/ATT-ESS-May-2024-to-July-2025.zip",
+  "started_at": "2026-10-22T10:38:29",
+  "combined": {
+    "section12": {
+      "total_examined": 250000,
+      "considered_usable": 249902,
+      "federal_liens": 144928,
+      "state_liens": 98331,
+      "business_liens": 55154,
+      "individual_liens": 188105,
+      "trust_estate_held": 89,
+      "ambiguous_entity_held": 0,
+      "duplicates_within_source": 6643,
+      "missing_required_values": 9,
+      "rejected_other": 0,
+      "would_insert": 243259
+    },
+    "cross_tab": {
+      "federal": {
+        "business": 19144,
+        "individual": 125784
+      },
+      "state": {
+        "business": 36010,
+        "individual": 62321
+      },
+      "held": {
+        "trust_estate": 89,
+        "ambiguous": 0
+      }
+    },
+    "jurisdiction_inference": {
+      "from_creditor": 97889,
+      "from_note_filing_office": 0,
+      "from_address_state": 145370
+    },
+    "missing_field_tally": {
+      "lien_amount": 4,
+      "lien_filing_type": 4,
+      "lien_jurisdiction": 5
+    },
+    "dispositions": {
+      "INSERT": 243259,
+      "HOLD_TRUST_ESTATE": 89,
+      "SKIP_DUPLICATE": 6643,
+      "REJECT_MISSING": 9
+    },
+    "reconciles": true
+  },
+  "by_format": {
+    "att_ess": {
+      "section12": {
+        "total_examined": 250000,
+        "considered_usable": 249902,
+        "federal_liens": 144928,
+        "state_liens": 98331,
+        "business_liens": 55154,
+        "individual_liens": 188105,
+        "trust_estate_held": 89,
+        "ambiguous_entity_held": 0,
+        "duplicates_within_source": 6643,
+        "missing_required_values": 9,
+        "rejected_other": 0,
+        "would_insert": 243259
+      },
+      "cross_tab": {
+        "federal": {
+          "business": 19144,
+          "individual": 125784
+        },
+        "state": {
+          "business": 36010,
+          "individual": 62321
+        },
+        "held": {
+          "trust_estate": 89,
+          "ambiguous": 0
+        }
+      },
+      "jurisdiction_inference": {
+        "from_creditor": 97889,
+        "from_note_filing_office": 0,
+        "from_address_state": 145370
+      },
+      "missing_field_tally": {
+        "lien_amount": 4,
+        "lien_filing_type": 4,
+        "lien_jurisdiction": 5
+      },
+      "dispositions": {
+        "INSERT": 243259,
+        "HOLD_TRUST_ESTATE": 89,
+        "SKIP_DUPLICATE": 6643,
+        "REJECT_MISSING": 9
+      },
+      "reconciles": true
+    }
+  },
+  "unmapped_headers": [],
+  "reconciles": true
+}

@@ -1,0 +1,46 @@
+Audit - source ES   input: C:/Users/Eng/Downloads/ATT-ESS-May-2024-to-July-2025.zip
+  run started 2026-10-22T10:26:26
+
+=== COMBINED ===
+  total records examined               4,025,001
+  records considered usable            4,023,421
+  Federal liens                          891,283
+  State liens                            890,482
+  Business liens                         462,279
+  Individual liens                     1,319,486
+  Trust/Estate records (held)              1,416
+  Ambiguous entity records (held)              0
+  duplicates within source             2,241,656
+  missing required values                    160
+  rejected for other reasons                   4
+  records that WOULD be inserted       1,781,765
+
+                     Business    Individual
+  Federal             140,530       750,753
+  State               321,749       568,733
+  (held) Trust/Estate      1,416     Ambiguous        0
+  jurisdiction resolved from:  creditor=883,015  note_filing_office=0  address_state=898,750
+  missing/invalid field tally: lien_amount=130, lien_filing_type=125, lien_jurisdiction=28
+  reconciles: True
+
+=== FORMAT: att_ess ===
+  total records examined               4,025,001
+  records considered usable            4,023,421
+  Federal liens                          891,283
+  State liens                            890,482
+  Business liens                         462,279
+  Individual liens                     1,319,486
+  Trust/Estate records (held)              1,416
+  Ambiguous entity records (held)              0
+  duplicates within source             2,241,656
+  missing required values                    160
+  rejected for other reasons                   4
+  records that WOULD be inserted       1,781,765
+
+                     Business    Individual
+  Federal             140,530       750,753
+  State               321,749       568,733
+  (held) Trust/Estate      1,416     Ambiguous        0
+  jurisdiction resolved from:  creditor=883,015  note_filing_office=0  address_state=898,750
+  missing/invalid field tally: lien_amount=130, lien_filing_type=125, lien_jurisdiction=28
+  reconciles: True

@@ -1,0 +1,9 @@
+2026-10-22 10:38:29,737 INFO    lien_import.db: connected to mysql root@127.0.0.1/zm_dba
+2026-10-22 10:38:29,764 INFO    lien_import.pipeline: source ES empty in DB - append fast path (no per-chunk existence checks)
+2026-10-22 10:38:51,708 INFO    lien_import.pipeline: progress: examined=50000 inserted=49987 2279 rows/s
+2026-10-22 10:39:33,363 INFO    lien_import.pipeline: progress: examined=100000 inserted=98569 1572 rows/s
+2026-10-22 10:40:20,126 INFO    lien_import.pipeline: progress: examined=150000 inserted=148158 1359 rows/s
+2026-10-22 10:41:01,372 INFO    lien_import.pipeline: progress: examined=200000 inserted=196212 1319 rows/s
+2026-10-22 10:41:55,002 INFO    lien_import.pipeline: progress: examined=250000 inserted=243259 1218 rows/s
+2026-10-22 10:41:56,089 WARNING lien_import.pipeline: max_commit_rows (250000) reached; 243259 rows committed so far. Re-run with --force to finish (idempotent, resumes where it stopped).
+2026-10-22 10:41:56,091 INFO    lien_import.pipeline: done: examined=260000 inserted=243259 elapsed=206.3s

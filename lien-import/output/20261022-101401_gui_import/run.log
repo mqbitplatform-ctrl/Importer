@@ -1,0 +1,7 @@
+2026-10-22 10:14:01,079 INFO    lien_import.db: connected to mysql root@127.0.0.1/lien_batch_test
+2026-10-22 10:14:01,088 INFO    lien_import.pipeline: source ES empty in DB - append fast path (no per-chunk existence checks)
+2026-10-22 10:14:01,105 INFO    lien_import.pipeline: done: examined=25 inserted=25 elapsed=0.0s
+2026-10-22 10:14:01,245 INFO    lien_import.db: connected to mysql root@127.0.0.1/lien_batch_test
+2026-10-22 10:14:01,573 INFO    lien_import.db: connected to mysql root@127.0.0.1/lien_batch_test
+2026-10-22 10:14:01,580 INFO    lien_import.pipeline: done: examined=25 inserted=0 elapsed=0.0s
+2026-10-22 10:14:01,785 INFO    lien_import.db: connected to mysql root@127.0.0.1/lien_batch_test
