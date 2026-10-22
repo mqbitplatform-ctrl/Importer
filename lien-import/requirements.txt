@@ -1,0 +1,5 @@
+# Runtime (the only dependency)
+PyMySQL>=1.0.2
+
+# Dev / test only
+pytest>=8.0

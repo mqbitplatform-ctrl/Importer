@@ -1,0 +1,39 @@
+{
+  "database": {
+    "host": "REPLACE_ME",
+    "port": 3306,
+    "name": "zm_dba",
+    "user": "REPLACE_ME",
+    "password": "REPLACE_ME",
+    "charset": "utf8mb4",
+    "liens_table": "liens"
+  },
+  "import": {
+    "batch_size": 2000,
+    "chunk_size": 10000,
+    "commit_every_chunks": 2,
+    "workers": 1,
+    "progress_every": 50000,
+    "use_import_log_table": true,
+    "import_log_table": "lien_import_log",
+    "rejects_table": "lien_import_rejects",
+    "min_filing_year": 1980,
+    "max_commit_rows": 250000,
+    "allow_duplicates": false
+  },
+  "fat": {
+    "user_index": "61379",
+    "filing_type": "F",
+    "entity_type": "I",
+    "min_amount": "5000",
+    "sources": [],
+    "assignment_table": "liens_custom_data",
+    "case_id_name": "FREEAMTAX Case ID"
+  },
+  "paths": {
+    "output_dir": "./output",
+    "inbox_dir": "./lien-data/inbox",
+    "processed_dir": "./lien-data/processed",
+    "failed_dir": "./lien-data/failed"
+  }
+}
